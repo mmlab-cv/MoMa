@@ -1,0 +1,887 @@
+180 Turn W_ Briefcase.bvh
+2hand Idle.bvh
+Acknowledging.bvh
+Agony.bvh
+Agreeing.bvh
+Aim Pistol.bvh
+Air Squat Bent Arms.bvh
+Air Squat.bvh
+Angry.bvh
+Angry Gesture.bvh
+Angry Point.bvh
+Annoyed Head Shake.bvh
+Arm Gesture.bvh
+Arms Hip Hop Dance.bvh
+Arm Stretching.bvh
+Asking Question.bvh
+Au.bvh
+Backflip.bvh
+Back Flip To Uppercut.bvh
+Back Squat.bvh
+Backward Walking Turn.bvh
+Bartending.bvh
+Baseball Bunt.bvh
+Baseball Catcher.bvh
+Baseball Hit.bvh
+Baseball Idle.bvh
+Baseball Step Up To Bat.bvh
+Baseball Umpire.bvh
+Baseball Walk In.bvh
+Bashful.bvh
+Bboy Hip Hop Move.bvh
+Bboy Pose To Idle.bvh
+Bboy Uprock Start.bvh
+Beckoning.bvh
+Being Carried.bvh
+Being Cocky.bvh
+Being Strangled.bvh
+Belly Dance.bvh
+Bencao.bvh
+Bicep Curl.bvh
+Big Body Blow.bvh
+Big Hit To Head.bvh
+Big Jump.bvh
+Big Rib Hit.bvh
+Big Stomach Hit.bvh
+Block.bvh
+Blocking Attack.bvh
+Blocking.bvh
+Block With Rifle.bvh
+Body Block.bvh
+Bored.bvh
+Bouncing Fight Idle.bvh
+Boxing.bvh
+Box Walk Arc.bvh
+Braced Hang.bvh
+Braced Hang Drop.bvh
+Braced Hang To Crouch.bvh
+Breakdance 1990.bvh
+Breakdance Ending 2.bvh
+Breakdance Footwork 1.bvh
+Breakdance Footwork 2.bvh
+Breakdance Footwork 3.bvh
+Breakdance Footwork To Freeze.bvh
+Breakdance Footwork To Idle.bvh
+Breakdance Freezes.bvh
+Breakdance Freeze Var 1.bvh
+Breakdance Freeze Var 3.bvh
+Breakdance Freeze Var 4.bvh
+Breakdance Ready.bvh
+Breakdance Swipes.bvh
+Breakdance Uprock.bvh
+Breakdance Uprock To Ground.bvh
+Breakdance Uprock Var 1.bvh
+Breakdance Uprock Var 1 End.bvh
+Breakdance Uprock Var 1 Start.bvh
+Breathing Idle.bvh
+Brutal Assassination.bvh
+Burpee End.bvh
+Butterfly Twirl.bvh
+Can Can.bvh
+Capoeira.bvh
+Cards.bvh
+Carrying Turn.bvh
+Cartwheel.bvh
+Catwalk Idle 01.bvh
+Catwalk Idle 02.bvh
+Catwalk Idle.bvh
+Catwalk Idle To Twist L.bvh
+Catwalk Idle To Twist R.bvh
+Catwalk Idle To Walk Forward Crossed.bvh
+Catwalk Idle Twist L.bvh
+Catwalk Idle Twist R.bvh
+Catwalk Sequence 01.bvh
+Catwalk Sequence 02.bvh
+Catwalk Sequence 03.bvh
+Catwalk Sequence 04.bvh
+Catwalk Sequence 05.bvh
+Catwalk Twist L To Twist R.bvh
+Catwalk Twist R To Twist L.bvh
+Catwalk Walk Forward Arc 90R.bvh
+Catwalk Walk Forward Turn 90L.bvh
+Catwalk Walk Forward Turn 90R.bvh
+Catwalk Walk Start Backwards 180L.bvh
+Catwalk Walk Start Backwards 180R.bvh
+Catwalk Walk Start Turn 180 Left.bvh
+Catwalk Walk Stop.bvh
+Catwalk Walk Stop Twist L.bvh
+Catwalk Walk Stop Twist R.bvh
+Catwalk Walk Turn 180 Tight L.bvh
+Catwalk Walk Turn 180 Tight R.bvh
+Catwalk Walk Turn 180 Wide.bvh
+Catwalk Walk Turn 180 Wide R.bvh
+Change Direction.bvh
+Chapa 2.bvh
+Chapaeu De Couro.bvh
+Charge.bvh
+Checking Dice.bvh
+Cheering.bvh
+Cheering While Sitting.bvh
+Chicken Dance.bvh
+Clean And Jerk.bvh
+Climbing.bvh
+Climbing Down.bvh
+Closing A Lid.bvh
+Corkscrew Kip Up.bvh
+Counting.bvh
+Cover To Stand.bvh
+Cow Milking.bvh
+Crawling Backwards.bvh
+Crazy Gesture.bvh
+Cross Jumps.bvh
+Crossleg Freeze.bvh
+Cross Punch.bvh
+Crouch Cover To Cover.bvh
+Crouch Cover Turn.bvh
+Crouched To Sprinting.bvh
+Crouched To Standing.bvh
+Crouch Idle 02 Looking Around.bvh
+Crouch Idle 03 Looking Over.bvh
+Crouch Idle.bvh
+Crouching Idle.bvh
+Crouching Turn 90 Left.bvh
+Crouching Turn 90 Right.bvh
+Crouch Look Around Corner.bvh
+Crouch Torch Idle 01.bvh
+Crouch Torch Idle 02.bvh
+Crouch Torch To Standing Torch Idle.bvh
+Crouch Torch Turn Right 90.bvh
+Crouch To Stand.bvh
+Crouch To Standing.bvh
+Crouch To Standing Idle.bvh
+Crouch To Standing With Rifle.bvh
+Crouch Turn Left 90.bvh
+Crouch Turn Right 90.bvh
+Crying.bvh
+Dancing.bvh
+Dancing Maraschino Step.bvh
+Death Crouching Headshot Front.bvh
+Death From Back Headshot.bvh
+Death From Front Headshot.bvh
+Death From Right.bvh
+Death From The Back.bvh
+Death From The Front.bvh
+Defeat.bvh
+Defender.bvh
+Digging.bvh
+Disarmed.bvh
+Dismissing Gesture.bvh
+Dive Roll.bvh
+Dizzy Idle.bvh
+Dodging.bvh
+Dodging Right.bvh
+Double Dagger Stab.bvh
+Double Leg Takedown - Attacker.bvh
+Double Leg Takedown - Victim.bvh
+Draw A Great Sword 2.bvh
+Drawing Gun.bvh
+Draw Sword 2.bvh
+Dribble.bvh
+Drinking.bvh
+Drinking Fountain.bvh
+Drop Kick.bvh
+Dropping.bvh
+Drunk Idle Variation.bvh
+Drunk Running Left Turn.bvh
+Drunk Turn.bvh
+Drunk Walking Turn.bvh
+Ducking.bvh
+Dwarf Idle.bvh
+Dying.bvh
+Edge Slip.bvh
+Elbow Punch.bvh
+Elbow Punching.bvh
+Emerge From Cover.bvh
+End Bicycle Sit Up.bvh
+Entering Car.bvh
+Entry.bvh
+Esquiva 1.bvh
+Esquiva 3.bvh
+Esquiva 4.bvh
+Esquiva 5.bvh
+Evading A Threat.bvh
+Exiting Car.bvh
+Fall A Land To Run Forward.bvh
+Fall A Land To Standing Idle 01.bvh
+Fall A Land To Standing Idle 02.bvh
+Fall A Loop.bvh
+Fall B Land To Standing Idle.bvh
+Fallen Idle.bvh
+Falling Back Death.bvh
+Falling.bvh
+Falling Flat Impact.bvh
+Falling From Losing Balance.bvh
+Falling Idle.bvh
+Falling Into Pool.bvh
+Falling To Landing.bvh
+Falling To Roll.bvh
+Female Action Pose.bvh
+Female Crouch Pose.bvh
+Female Dance Pose.bvh
+Female Dynamic Pose.bvh
+Female Laying Pose.bvh
+Female Locomotion Pose.bvh
+Female Peek And Aim.bvh
+Female Sitting Pose.bvh
+Female Start Walking.bvh
+Female Stop And Start Walking.bvh
+Female Stop Walking.bvh
+Femme Peek Around Corner.bvh
+Fight Idle.bvh
+Fight Idle To Action Idle.bvh
+Fight Idle To Standing Idle.bvh
+Fighting Idle.bvh
+Finding.bvh
+Firing Rifle.bvh
+Fishing Cast.bvh
+Fist Fight A.bvh
+Flair.bvh
+Flip Kick.bvh
+Floating.bvh
+Flying Back Death.bvh
+Flying Bicycle Kick.bvh
+Flying Shoulder Throw.bvh
+Focus.bvh
+Football Catch.bvh
+Football Hike.bvh
+Forward Jump.bvh
+Free Hang To Braced.bvh
+Front Raises.bvh
+Front Twist Flip.bvh
+Gaming.bvh
+Gangnam Style.bvh
+Gathering Objects.bvh
+Getting Hit.bvh
+Getting Smashed.bvh
+Ginga Backward.bvh
+Ginga Sideways 1.bvh
+Ginga Sideways 2.bvh
+Ginga Variation 1.bvh
+Ginga Variation 2.bvh
+Goalie Throw.bvh
+Goalkeeper Body Block.bvh
+Goalkeeper Catch.bvh
+Goalkeeper Directing.bvh
+Goalkeeper Diving Save.bvh
+Goalkeeper Drop Kick.bvh
+Goalkeeper Idle.bvh
+Goalkeeper Miss.bvh
+Goalkeeper Pass.bvh
+Goalkeeper Placing Ball.bvh
+Goalkeeper Scoop.bvh
+Goalkeeper Sidestep.bvh
+Golf Bad Shot.bvh
+Golf Chip.bvh
+Golf Drive.bvh
+Golf Post-Swing.bvh
+Golf Putt.bvh
+Golf Putt Failure.bvh
+Golf Putting Victory.bvh
+Golf Tee Up.bvh
+Grab And Slam.bvh
+Grabbing Ammo.bvh
+Grabbing Pistol.bvh
+Grab Rifle From Back.bvh
+Grab Rifle From Behind Shoulder.bvh
+Grab Rifle From The Side And Put Back.bvh
+Grab Rifle From The Side.bvh
+Great Sword 180 Turn.bvh
+Great Sword Attack.bvh
+Great Sword Blocking.bvh
+Great Sword Casting.bvh
+Great Sword Crouching.bvh
+Great Sword Impact.bvh
+Great Sword Jump.bvh
+Great Sword Kick.bvh
+Great Sword Power Up.bvh
+Great Sword Slash.bvh
+Great Sword Slide Attack.bvh
+Great Sword Turn.bvh
+Grenade Throw.bvh
+Guitar Playing.bvh
+Gunplay.bvh
+Hand Raising.bvh
+Hanging.bvh
+Hanging Idle.bvh
+Happy.bvh
+Happy Hand Gesture.bvh
+Happy Idle.bvh
+Happy Right Turn.bvh
+Happy Walk Forward Arc Left.bvh
+Hard Head Nod.bvh
+Hard Landing.bvh
+Having A Meeting, Female.bvh
+Having A Meeting, Male.bvh
+Header.bvh
+Header Soccerball.bvh
+Head Gesture.bvh
+Head Hit.bvh
+Head Nod Yes.bvh
+Hell Slammer A.bvh
+Helping Out.bvh
+Hiding.bvh
+Hiding Grab.bvh
+Hip Hop Dancing.bvh
+Hit On Back Of Head.bvh
+Hit On Side Of Body.bvh
+Hit On Side Of Head.bvh
+Hit On The Back.bvh
+Hit To Body.bvh
+Hit To Head.bvh
+Hit To The Legs.bvh
+Holding Down.bvh
+Holding Idle.bvh
+Holding Turn Left.bvh
+Honking Horn.bvh
+Hook.bvh
+Hook Punch.bvh
+Hostage Situation Idle - Hostage.bvh
+Hostage Situation Idle - Villain.bvh
+House Dancing.bvh
+Idle Crouching Aiming.bvh
+Idle Crouching.bvh
+Idle To Braced Hang.bvh
+Idle To Push Up.bvh
+Idle To Situp.bvh
+Idle To Sprint.bvh
+Idle Transition.bvh
+Illegal Headbutt.bvh
+Illegal Knee.bvh
+Injured Backwards Turn Right.bvh
+Injured Hurting Idle.bvh
+Injured Idle.bvh
+Injured Run Backwards Left Turn.bvh
+Injured Run Backwards Right Turn.bvh
+Injured Run Right Turn.bvh
+Injured Turn Left.bvh
+Injured Turn Right.bvh
+Injured Walk Right Turn.bvh
+Injured Wave Idle.bvh
+Inside Crescent Kick.bvh
+Insult.bvh
+Intercepting.bvh
+Inverted Double Kick To Kip Up.bvh
+Jab Cross.bvh
+Jab To Elbow Punch.bvh
+Jog In Circle.bvh
+Jump Down.bvh
+Jump From Wall.bvh
+Jumping Down.bvh
+Jumping Jacks.bvh
+Jumping Over Into Combat.bvh
+Jumping Rope.bvh
+Jumping To Hanging.bvh
+Jumping Up.bvh
+Jump Loop.bvh
+Jump Push Up.bvh
+Kettlebell Swing.bvh
+Kicking.bvh
+Kick Soccerball.bvh
+Kick To The Groin.bvh
+Kip Up.bvh
+Kiss.bvh
+Kneeing Soccerball.bvh
+Knee Jab.bvh
+Kneeling.bvh
+Kneeling Down.bvh
+Kneeling Idle.bvh
+Kneeling Inspecting.bvh
+Kneeling Pointing.bvh
+Knife Idle.bvh
+Knocked Out.bvh
+Landing.bvh
+Laying Breathless.bvh
+Laying.bvh
+Laying Hand Gesture.bvh
+Laying Moaning.bvh
+Laying Nodding.bvh
+Laying Seizure.bvh
+Laying Shaking Head.bvh
+Laying Shrugging.bvh
+Laying Sleeping.bvh
+Laying Vomiting.bvh
+Lead Jab.bvh
+Leaning On A Wall.bvh
+Left Block.bvh
+Left Pivot.bvh
+Left Turn 45.bvh
+Left Turn 90.bvh
+Left Turn.bvh
+Left Turn W_Briefcase.bvh
+Leg Sweep.bvh
+Lifting.bvh
+Lifting Object.bvh
+Light Hit To Head.bvh
+Listening To Music.bvh
+Livershot Knockdown.bvh
+Long Left Side Step.bvh
+Long Right Side Step.bvh
+Long Step Forward.bvh
+Look Around.bvh
+Look Away Gesture.bvh
+Looking Around.bvh
+Looking Behind.bvh
+Looking.bvh
+Looking Down.bvh
+Looking Through Files Low.bvh
+Look Over Shoulder.bvh
+Lying Down.bvh
+Macaco Side.bvh
+Magic Heal.bvh
+Magic Spell Casting.bvh
+Male Crouch Pose.bvh
+Male Dance Pose.bvh
+Male Dynamic Pose.bvh
+Male Laying Pose.bvh
+Male Locomotion Pose.bvh
+Martelo 3.bvh
+Martelo Do Chau.bvh
+Martelo Do Chau Sem Mao.bvh
+Medium Left Side Step.bvh
+Medium Right Side Step.bvh
+Medium Step Forward.bvh
+Meia Lua De Compasso Back.bvh
+Meia Lua De Compasso.bvh
+Meia Lua De Frente.bvh
+Mma Kick.bvh
+Moving Object.bvh
+Mutant Dying.bvh
+Mutant Jumping.bvh
+Mutant Right Turn 45.bvh
+Mutant Right Turn 90.bvh
+Mutant Swiping.bvh
+Neck Stretching.bvh
+Nervously Look Around.bvh
+Neutral Idle.bvh
+Ninja Idle.bvh
+No.bvh
+Northern Soul Dance.bvh
+Northern Soul Floor Combo.bvh
+Northern Soul Floor Spin.bvh
+Northern Soul Spin.bvh
+Northern Soul Spin Combo.bvh
+Old Man Idle.bvh
+One Hand Club Combo.bvh
+One Shoulder Lean.bvh
+Opening A Filing Cabinet.bvh
+Opening A Lid.bvh
+Opening.bvh
+Orc Idle.bvh
+Outward Block.bvh
+Overhead Squat.bvh
+Paddling.bvh
+Piano Playing.bvh
+Picking At Shirt.bvh
+Pike Walk.bvh
+Pilot Flips Switches.bvh
+Piloting.bvh
+Pistol Aim.bvh
+Pistol.bvh
+Pistol Idle.bvh
+Pistol Kneeling Idle.bvh
+Pistol Kneel To Stand.bvh
+Pistol Run Arc.bvh
+Pistol Stand To Kneel.bvh
+Pistol Start.bvh
+Pistol To Idle.bvh
+Pistol Walk Arc.bvh
+Pistol Whip.bvh
+Plank.bvh
+Plant A Plant.bvh
+Plant Tree.bvh
+Playing The Violin.bvh
+Pointing Forward.bvh
+Pointing Gesture.bvh
+Pouting.bvh
+Prone Backwards Start.bvh
+Prone Backwards Stop.bvh
+Prone Death.bvh
+Prone Firing Rifle.bvh
+Prone Idle.bvh
+Prone Left Turn.bvh
+Prone Reloading.bvh
+Prone Right Turn.bvh
+Prone To Crouch Transition.bvh
+Pull Heavy Object Stop.bvh
+Punch Combo.bvh
+Punching Bag.bvh
+Punching.bvh
+Punch To Elbow Combo.bvh
+Pushing.bvh
+Push Stop.bvh
+Push Up.bvh
+Push Up To Idle.bvh
+Put Back Rifle Behind Shoulder.bvh
+Put Back Rifle.bvh
+Putting Down.bvh
+Quarterback Pass.bvh
+Queshada 1.bvh
+Queshada 2.bvh
+Quick 180 Turn.bvh
+Quick Informal Bow.bvh
+Quick Roll To Run.bvh
+Rallying.bvh
+Rapping.bvh
+Rasteira 1.bvh
+Rasteira 2.bvh
+Reacting.bvh
+Reaction.bvh
+Receive.bvh
+Receive Soccerball.bvh
+Receive Uppercut To The Face.bvh
+Release Hostage - Villain.bvh
+Relieved Sigh.bvh
+Reload.bvh
+Revealing Dice.bvh
+Rib Hit.bvh
+Rifle Aiming Idle.bvh
+Rifle Aim To Down.bvh
+Rifle Aim To Kneel.bvh
+Rifle Backward Run To Stop.bvh
+Rifle Backward Walk To Stop.bvh
+Rifle Crouch Turn.bvh
+Rifle Crouch Walk To Kneel.bvh
+Rifle Death.bvh
+Rifle Down To Aim.bvh
+Rifle Idle.bvh
+Rifle Idle To Crouch.bvh
+Rifle Jump.bvh
+Rifle Jump In Place.bvh
+Rifle Kneel Idle.bvh
+Rifle Kneel To Prone.bvh
+Rifle Kneel To Stand.bvh
+Rifle Prone To Kneel.bvh
+Rifle Pull Out.bvh
+Rifle Punch.bvh
+Rifle Put Away.bvh
+Rifle Rubbing Eyes.bvh
+Rifle Run To Dying.bvh
+Rifle Run To Stop.bvh
+Rifle Shielding Face.bvh
+Rifle Stand To Kneel.bvh
+Rifle Start Run.bvh
+Rifle Walk To Stop.bvh
+Right Block.bvh
+Right Pivot.bvh
+Right Turn.bvh
+Right Turn W_ Briefcase.bvh
+Roar.bvh
+Robot Hip Hop Dance.bvh
+Rockin' Shackle A.bvh
+Rockin' Shackle B.bvh
+Roll Kicking.bvh
+Roll Left.bvh
+Rope Swinging.bvh
+Roundhouse Kick.bvh
+Rummaging.bvh
+Run Backward Arc Right.bvh
+Run Backwards.bvh
+Run Forward Arc Right.bvh
+Running Arc.bvh
+Running Backward Arc.bvh
+Running Dive Roll.bvh
+Running Jump.bvh
+Running Tired.bvh
+Running To Stop.bvh
+Running To Turn.bvh
+Run To Dive.bvh
+Run To Rolling.bvh
+Run To Stop.bvh
+Sad Idle.bvh
+Salsa Dancing.bvh
+Salute.bvh
+Samba Dancing.bvh
+Sarcastic Head Nod.bvh
+Scary Clown Stopping.bvh
+Scissor Kick.bvh
+Seated Idle.bvh
+Sending Fax.bvh
+Shake Gesture.bvh
+Shaking Dice.bvh
+Shaking Hands 1.bvh
+Shaking It Off.bvh
+Sheath A Great Sword 1.bvh
+Sheathing Sword.bvh
+Sheath Sword 1.bvh
+Sheath Sword 2.bvh
+Shooting Arrow.bvh
+Shooting.bvh
+Shooting Gun.bvh
+Shooting Pistol.bvh
+Short Step Forward.bvh
+Shoulder Throw, Aggressor.bvh
+Shove Reaction.bvh
+Shuffling.bvh
+Side Hit.bvh
+Side Kick.bvh
+Silly Dancing.bvh
+Singing.bvh
+Sitting Angry.bvh
+Sitting.bvh
+Sitting Clap.bvh
+Sitting Dazed.bvh
+Sitting Disbelief.bvh
+Sitting Gun Motion.bvh
+Sitting Idle.bvh
+Sitting Laughing.bvh
+Sitting Swinging Weapon.bvh
+Sitting Talking.bvh
+Sitting Thumbs Up.bvh
+Sitting Victory.bvh
+Sitting Weapon Grab.bvh
+Sit To Stand.bvh
+Sit To Type.bvh
+Skateboarding.bvh
+Skinning Test.bvh
+Slash Advance.bvh
+Sleeping Idle.bvh
+Slide Hip Hop Dance.bvh
+Smoking.bvh
+Snake Hip Hop Dance.bvh
+Snatch.bvh
+Soccer Header.bvh
+Soccer Idle.bvh
+Soccer Penalty Kick.bvh
+Soccer Spin.bvh
+Soccer Tackle.bvh
+Spat In Face.bvh
+Speedbag.bvh
+Spell Casting.bvh
+Spin Flip Kick.bvh
+Spin In Place.bvh
+Spinning.bvh
+Spit Reaction.bvh
+Sprint To Wall Climb.bvh
+Sprint Turn.bvh
+Stabbing.bvh
+Stable Sword Inward Slash.bvh
+Stall Soccerball.bvh
+Standard Idle.bvh
+Standing 1H Magic Attack 02.bvh
+Standing 2H Cast Spell 01.bvh
+Standing 2H Magic Area Attack 01.bvh
+Standing 2H Magic Attack 02.bvh
+Standing 2H Magic Attack 04.bvh
+Standing 2H Magic Attack 05.bvh
+Standing Aim Idle 01.bvh
+Standing Aim Idle 02 Looking.bvh
+Standing Aim Recoil.bvh
+Standing Arguing.bvh
+Standing Block.bvh
+Standing Block Idle.bvh
+Standing Block React Large.bvh
+Standing.bvh
+Standing Cheering.bvh
+Standing Clap.bvh
+Standing Cover To Cover.bvh
+Standing Cover Turn.bvh
+Standing Death Backward 01.bvh
+Standing Death Forward 02.bvh
+Standing Death Left 01.bvh
+Standing Death Left 02.bvh
+Standing Disarm Bow.bvh
+Standing Disarm Over Shoulder.bvh
+Standing Dodge Forward.bvh
+Standing Dodge Left.bvh
+Standing Dodge Right.bvh
+Standing Fist Pump.bvh
+Standing Greeting.bvh
+Standing Idle 01.bvh
+Standing Idle 02.bvh
+Standing Idle 03.bvh
+Standing Idle 03 Examine.bvh
+Standing Idle.bvh
+Standing Idle Looking Ver. 1.bvh
+Standing Idle Looking Ver. 2.bvh
+Standing Idle To Crouch.bvh
+Standing Jump.bvh
+Standing Jump Running Landing.bvh
+Standing Melee Attack 360 Low.bvh
+Standing Melee Attack Kick Ver. 1.bvh
+Standing Melee Attack Kick Ver. 2.bvh
+Standing Melee Kick.bvh
+Standing Melee Punch.bvh
+Standing Melee Run Jump Attack.bvh
+Standing React Large From Back.bvh
+Standing React Large From Right.bvh
+Standing React Large Gut.bvh
+Standing React Small From Back.bvh
+Standing React Small From Front 02.bvh
+Standing React Small From Front.bvh
+Standing React Small From Headshot.bvh
+Standing React Small From Left.bvh
+Standing Run Forward Stop.bvh
+Standing Taunt Battlecry.bvh
+Standing Taunt Chest Thump.bvh
+Standing Torch Idle 01.bvh
+Standing Torch Inspect Downward.bvh
+Standing Torch Inspect Forward.bvh
+Standing Torch Inspect Upward.bvh
+Standing Torch Jump.bvh
+Standing Torch Jump Running To Standing Idle.bvh
+Standing Torch Light Torch From Wall.bvh
+Standing Torch Melee Attack 01.bvh
+Standing Torch Melee Attack 02.bvh
+Standing Torch Melee Attack 04.bvh
+Standing Torch Melee Attack 05.bvh
+Standing Torch Run Forward Stop At Edge.bvh
+Standing Torch Run Forward Stop.bvh
+Standing Torch Turn Left 180.bvh
+Standing Torch Turn Right 180.bvh
+Standing Torch Walk Forward Stop Edge.bvh
+Standing Turn 90 Left.bvh
+Standing Turn 90 Right.bvh
+Standing Turn Left 90.bvh
+Standing Up.bvh
+Standing W_Briefcase Idle.bvh
+Stand To Crouch.bvh
+Stand Up.bvh
+Start Bicycle Sit Up.bvh
+Start Climbing Ladder.bvh
+Start Jumping Jacks.bvh
+Start Plank.bvh
+Start Swinging.bvh
+Start Walking Backwards.bvh
+Start Walking.bvh
+Stealth Assassination.bvh
+Step Backward.bvh
+Stepping Backward.bvh
+Stepping Forward.bvh
+Stepping Left.bvh
+Stomach Hit.bvh
+Stomp.bvh
+Stomping.bvh
+Stop Jumping Jacks.bvh
+Stop Walking.bvh
+Stop Walking With Rifle.bvh
+Strafe Right.bvh
+Strafing.bvh
+Stroke Hand Gesture.bvh
+Stroke Shaking Head.bvh
+Stroke Shrugging.bvh
+Strong Gesture.bvh
+Struck In Head.bvh
+Stumbling.bvh
+Stylish Flip.bvh
+Sumo High Pull.bvh
+Surprised.bvh
+Surprise Uppercut.bvh
+Sweep Fall.bvh
+Swimming To Edge.bvh
+Swing Dancing.bvh
+Swinging.bvh
+Swing Into Wall.bvh
+Swing To Land.bvh
+Sword And Shield 180 Turn.bvh
+Sword And Shield Attack.bvh
+Sword And Shield Block.bvh
+Sword And Shield Block Idle.bvh
+Sword And Shield Casting.bvh
+Sword And Shield Crouch Block.bvh
+Sword And Shield Crouch.bvh
+Sword And Shield Crouch Idle.bvh
+Sword And Shield Crouching.bvh
+Sword And Shield Death.bvh
+Sword And Shield Idle.bvh
+Sword And Shield Impact.bvh
+Sword And Shield Jump.bvh
+Sword And Shield Kick.bvh
+Sword And Shield Slash.bvh
+Sword Fight One.bvh
+Taken Hostage - Villain.bvh
+Taking Punch.bvh
+Talking.bvh
+Talking On A Cell Phone.bvh
+Talking On Phone.bvh
+Talking Phone Pacing.bvh
+Taunt.bvh
+Teeter.bvh
+Teeter Transition.bvh
+Terrified.bvh
+Thinking.bvh
+Thoughtful Head Nod.bvh
+Thriller Idle.bvh
+Thriller Part 2.bvh
+Thriller Part 3.bvh
+Thriller Part 4.bvh
+Throw.bvh
+Throw In.bvh
+Throwing.bvh
+Throwing Dice.bvh
+T-Pose.bvh
+Transition.bvh
+Treading Water.bvh
+Tripping.bvh
+Turning.bvh
+Turning Right 45 Degrees.bvh
+Turning Right.bvh
+Turn Left 45 Degrees.bvh
+Turn Left.bvh
+Turn To Running.bvh
+Twist Dance.bvh
+Two Hand Club Combo.bvh
+Two Handed Sword Death.bvh
+Two Hand Spell Casting.bvh
+Type To Sit.bvh
+Typing.bvh
+Unarmed Equip Over Shoulder.bvh
+Unarmed Equip Torch 01.bvh
+Unarmed Equip Torch 02.bvh
+Unarmed Equip Underarm.bvh
+Unarmed Grab Torch From Floor.bvh
+Unarmed Grab Torch From Wall.bvh
+Unarmed Idle 01.bvh
+Unarmed Idle.bvh
+Unarmed Idle Looking Ver. 1.bvh
+Unarmed Idle Looking Ver. 2.bvh
+Unarmed Turn Left 90.bvh
+Uppercut Jab.bvh
+Upward Rifle Butt Strike.bvh
+Upward Thrust.bvh
+Using A Fax Machine.bvh
+Using A Filing Cabinet.bvh
+Using An Inhaler.bvh
+Vault Over Box.bvh
+Victory.bvh
+Victory Idle.bvh
+Waking.bvh
+Walk Backward Arc.bvh
+Walk Backward Arc Left.bvh
+Walk Backward Arc Right.bvh
+Walk Backwards Stop.bvh
+Walk Forward Arc.bvh
+Walk Forward Arc Right.bvh
+Walk In Circle.bvh
+Walking Arc Left.bvh
+Walking.bvh
+Walking To Dying.bvh
+Walking Turn 180.bvh
+Walk To Stop.bvh
+Wall Run.bvh
+Warming Up.bvh
+Warrior Idle.bvh
+Watering.bvh
+Wave Hip Hop Dance.bvh
+Waving.bvh
+Weight Shift Gesture.bvh
+Wheelbarrow Dump.bvh
+Wheelbarrow Idle.bvh
+Wide Arm Spell Casting.bvh
+Withdrawing Sword.bvh
+Wobbling.bvh
+Writing.bvh
+Yelling.bvh
+Yelling Out.bvh
+Yelling While Standing.bvh
+Ymca Dance.bvh
+Zombie Agonizing.bvh
+Zombie Biting.bvh
+Zombie Death.bvh
+Zombie Dying.bvh
+Zombie Headbutt.bvh
+Zombie Idle.bvh
+Zombie Kicking.bvh
+Zombie Punching.bvh
+Zombie Reaction Hit.bvh
+Zombie Scream.bvh
+Zombie Stumbling.bvh

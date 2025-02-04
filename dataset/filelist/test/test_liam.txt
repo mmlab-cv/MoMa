@@ -1,0 +1,98 @@
+Body Jab Cross.bvh
+Box Turn.bvh
+Braced Hang Hop Up.bvh
+Braced Hang Shimmy.bvh
+Catwalk Idle To Walk Forward.bvh
+Catwalk Twist R To Walk 180.bvh
+Catwalk Walk Forward Arc 90L.bvh
+Catwalk Walk Forward Crossed.bvh
+Climbing Up Wall.bvh
+Combo Punch.bvh
+Cross Jumps Rotation.bvh
+Crouch Torch Walk Forward.bvh
+Crouched Sneaking Left.bvh
+Dancing Running Man.bvh
+Defeat Idle.bvh
+Disappointed.bvh
+Drunk Idle.bvh
+Drunk Run Forward.bvh
+Dual Weapon Combo.bvh
+End Plank.bvh
+Fall B Loop.bvh
+Female Standing Pose.bvh
+Fist Pump.bvh
+Football Stance.bvh
+Getting Thrown.bvh
+Getting Up.bvh
+Golf Post Shot.bvh
+Golf Putt Victory.bvh
+Hit On Legs.bvh
+Hit Reaction.bvh
+Holding Walk.bvh
+Idle.bvh
+Illegal Elbow Punch.bvh
+Injured Run Jump.bvh
+Injured Run.bvh
+Iv Pole Walking.bvh
+Jazz Dancing.bvh
+Jump To Freehang.bvh
+Jumping.bvh
+Kick Up Soccerball.bvh
+Laying Idle.bvh
+Laying Mild Cough.bvh
+Leaning.bvh
+Male Action Pose.bvh
+Male Sitting Pose.bvh
+Male Standing Pose.bvh
+Medium Hit To Head.bvh
+Medium Run.bvh
+Military Signaling.bvh
+Open Door Outwards.bvh
+Pick Fruit.bvh
+Pistol Run Backward Arc.bvh
+Pistol Run.bvh
+Pistol Strafe.bvh
+Pistol Walk Backward Arc.bvh
+Pointing.bvh
+Praying.bvh
+Pull Plant.bvh
+Push Start.bvh
+Quick Steps.bvh
+Rejected.bvh
+Rifle Block.bvh
+Rifle Turn.bvh
+Running.bvh
+Scary Clown Walk.bvh
+Short Right Side Step.bvh
+Sitting Drinking.bvh
+Sitting Yell.bvh
+Stand To Freehang.bvh
+Standing 1H Cast Spell 01.bvh
+Standing 1H Magic Attack 01.bvh
+Standing 2H Magic Area Attack 02.bvh
+Standing Idle 04.bvh
+Standing Land To Standing Idle.bvh
+Standing Melee Attack 360 High.bvh
+Standing Melee Combo Attack Ver. 2.bvh
+Standing React Death Forward.bvh
+Standing React Large From Left.bvh
+Standing React Small From Right.bvh
+Standing Run Forward.bvh
+Standing To Crouch.bvh
+Standing To Crouched.bvh
+Standing Torch Idle 04.bvh
+Standing Torch Jump Running.bvh
+Standing Torch Run Forward.bvh
+Standing Torch Turn Left 90.bvh
+Standing Turn Right 90.bvh
+Standing Walk Left.bvh
+Standing Yell.bvh
+Stroke Nodding.bvh
+Stunned.bvh
+Taking A Pill.bvh
+Taunt Gesture.bvh
+Troca 1.bvh
+Unarmed Turn Right 90.bvh
+Wheelbarrow Walk Turn.bvh
+Wheelbarrow Walk.bvh
+Zombie Stand Up.bvh
