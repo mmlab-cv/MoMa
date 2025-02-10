@@ -12,7 +12,7 @@ pip install -r requirements.txt
 # Additional Dependecies
 **Pytorch 3D**: Follow the instruction from the official repository https://github.com/facebookresearch/pytorch3d/blob/main/INSTALL.md \
 **Blender** : https://docs.blender.org/api/current/info_quickstart.html \
-**Mesh Intersection**: Follow the instruction from the official repository https://github.com/vchoutas/torch-mesh-isect \
+**Mesh Intersection**: Follow the instruction from the official repository https://github.com/vchoutas/torch-mesh-isect 
 
 # Datasets
 Download the [Mixamo](https://www.mixamo.com/) dataset and change the path in `data_flags.py`
