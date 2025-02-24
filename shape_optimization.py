@@ -286,7 +286,7 @@ def main():
 
     batch_size = 1
     device = torch.device('cuda')
-    mesh_path = "./datasets/mixamo/training_shape"
+    mesh_path = "./dataset/training_shape"
     character_name = "BigVegas"
     bvh_path = "./MixamoBVH"
     if '_m' in character_name:
@@ -294,9 +294,9 @@ def main():
     else:
         char_name = character_name
 
-    t_pose_path = "./MoMaAnimation/Tpose/%s.npy" %(char_name)
+    t_pose_path = "./dataset/Tpose/%s.npy" %(char_name)
     file_names = os.listdir(mesh_path)
-    json_file_path = './datasets/filelist/Homeomorphic/mixamo.json'
+    json_file_path = './demo_file/demo.json'
 
     ## Load Tpose
     t_pose = torch.tensor(np.load(t_pose_path)).cuda().float()
