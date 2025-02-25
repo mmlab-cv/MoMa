@@ -5,8 +5,6 @@ from __future__ import division
 import sys
 import os
 import numpy as np
-from datasets.shape_feeder import Feeder
-from src.forward_kinematics import FK
 import time
 import argparse
 import torch
@@ -21,11 +19,8 @@ import trimesh
 from putils.BVH_FILE import read_bvh
 import wandb
 from putils.BVH import load,save
-from Stopping import EarlyStopping
-from prior import create_prior
 from putils.Quaternions import Quaternions
 from tqdm import tqdm
-from prior import create_prior
 from einops import rearrange
 import json
 from putils.Filtering import gaussian_smooth
@@ -33,7 +28,6 @@ from putils.IK import get_character_height
 from evaluation_utils import de_normalize, concat_together, slice_to_equal_frame_len, to_format_tensor
 import putils.Animation_deep as Animation
 from putils.bvh_writer import BvhWriter
-from putils.Filtering import gaussian_smooth
 
 def build_bone_topology(topology):
     edges = []
