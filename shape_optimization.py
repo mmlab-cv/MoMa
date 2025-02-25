@@ -24,7 +24,6 @@ from tqdm import tqdm
 from einops import rearrange
 import json
 from putils.Filtering import gaussian_smooth
-from putils.IK import get_character_height
 from evaluation_utils import de_normalize, concat_together, slice_to_equal_frame_len, to_format_tensor
 import putils.Animation_deep as Animation
 from putils.bvh_writer import BvhWriter
