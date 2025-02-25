@@ -286,17 +286,17 @@ def main():
 
     batch_size = 1
     device = torch.device('cuda')
-    mesh_path = "./dataset/training_shape"
+    mesh_path = "./datasets/mixamo/training_shape"
     character_name = "BigVegas"
-    bvh_path = "./MixamoBVH"
+    bvh_path = "/home/giuliamartinelli/Dataset/MoMaAnimation/MixamoBVH"
     if '_m' in character_name:
         char_name = character_name.split('_m')[0]
     else:
         char_name = character_name
 
-    t_pose_path = "./dataset/Tpose/%s.npy" %(char_name)
+    t_pose_path = "/home/giuliamartinelli/Dataset/MoMaAnimation/Tpose/%s.npy" %(char_name)
     file_names = os.listdir(mesh_path)
-    json_file_path = './demo_file/demo.json'
+    json_file_path = './datasets/filelist/image/image.json'
 
     ## Load Tpose
     t_pose = torch.tensor(np.load(t_pose_path)).cuda().float()
