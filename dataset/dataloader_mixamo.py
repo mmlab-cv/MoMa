@@ -85,10 +85,7 @@ class MixamoDataset(Dataset):
 
         if self.mode == 'train':
             
-            ## ISOMORPHIC
-            # self.character_names = ["Aj","BigVegas","Goblin","Kaya","Mousey","Warrok","PeasantMan"]
-            # self.character_names = ["Aj"]
-            # ## HOMEOMORPHIC
+
             self.character_names = ['Aj', 'BigVegas', 'Kaya', 'SportyGranny', 'Remy_m',
                                     'Maria_m', 'Knight_m','Liam_m', 'Parasite', 
                                     'Michelle_m', 'LolaB_m','Pumpkinhulk_m', 'Ortiz_m', 'Paladin_m', 
@@ -122,10 +119,9 @@ class MixamoDataset(Dataset):
             for i in tqdm(range(len(self.character_names))):
                 if '_m' in self.character_names[i]:
                     char = self.character_names[i].split('_m')[0]
-                    type_skel = 'homeo'
                 else:
                     char = self.character_names[i]
-                    type_skel = 'iso'
+
                 std_bvh_data.append(BvhData(self.character_names[i], motion_file_name=char+'.bvh', FLAGS=FLAGS))
                 self.topologies.append(std_bvh_data[i].topology)
                 self.edges.append(std_bvh_data[i].edges)
@@ -149,7 +145,7 @@ class MixamoDataset(Dataset):
                 
                 for j in tqdm(range(len(bvh_file_list))):
                     
-                    bvh_name = bvh_file_list[j]+'.bvh'
+                    bvh_name = bvh_file_list[j]
                     bvh_data = BvhData(self.character_names[i], motion_file_name=bvh_name,FLAGS = self.FLAGS)
                     # [frame, simple_joint_num - 1, 4]
                     rotation = bvh_data.get_rotation()
@@ -180,18 +176,10 @@ class MixamoDataset(Dataset):
 
             self.character_data_rot = torch.cat(self.character_data_rot)
 
-            # self.character_ids_norm = normalize([self.character_ids], norm="l1")[0]
-            
-            
-
             self.character_data_rot = rearrange(self.character_data_rot,'b q j w -> b w j q')
             
         elif self.mode == 'validation':
             
-            # #ISOMORPHIC
-            # self.character_names = ["Ortiz","SportyGranny","Aj","BigVegas","Goblin","Kaya","Mousey","Warrok","PeasantMan"]
-            # self.character_names = ["Ortiz"]
-            # #HOMEOMORPHIC
             self.character_names = ["Aj","BigVegas","Goblin_m","Kaya","Mousey_m","Mremireh_m","SportyGranny","Vampire_m"]
 
             self.character_idx = dict()
@@ -207,8 +195,6 @@ class MixamoDataset(Dataset):
             self.ee_ids = []
             self.topologies = []
 
-            # contains numpy arrays in shape[1, (J - 1), 4]
-            # contains numpy arrays in shape [1, 1, 3]
             self.pos_means = []
             self.pos_vars = []
             self.index_tot_val = []
@@ -245,7 +231,7 @@ class MixamoDataset(Dataset):
                 
                 for j in tqdm(range(len(bvh_file_list))):
                     
-                    bvh_name = bvh_file_list[j]+'.bvh'
+                    bvh_name = bvh_file_list[j]
                     bvh_data = BvhData(self.character_names[i], motion_file_name=bvh_name,FLAGS = self.FLAGS)
                     # [frame, simple_joint_num - 1, 4]
                     rotation = bvh_data.get_rotation()
@@ -281,78 +267,6 @@ class MixamoDataset(Dataset):
             
             self.character_data_rot_val= rearrange(self.character_data_rot_val,'b q j w -> b w j q')
             
-        # else:
-        #     #ISOMORPHIC
-        #     self.character_names = ["Ortiz","SportyGranny","Aj","BigVegas","Goblin","Kaya","Mousey","Warrok","PeasantMan"] #"Mutant",,"Xbot","Man"
-        #     #HOMEOMORPHIC
-        #     # self.character_names = ["Aj","BigVegas","Goblin_m","Kaya","Mousey_m","Mremireh_m","SportyGranny","Vampire_m"]
-        #     std_bvh_data = []
-        #     self.val_edges = []
-        #     self.names = []
-        #     self.val_offsets = []
-        #     self.ee_ids = []
-        #     self.topologies = []
-
-        #     # contains numpy arrays in shape[1, (J - 1), 4]
-        #     # contains numpy arrays in shape [1, 1, 3]
-        #     self.pos_means = []
-        #     self.pos_vars = []
-        #     self.index_tot_val = []
-        #     # Load All motions
-        #     self.character_data_rot_val = []
-        #     self.character_data_pos = []
-
-        #     # Save topologies of every character
-        #     self.joint_nums = []
-        #     for i in tqdm(range(len(self.character_names))):
-        #         if '_m' in self.character_names[i]:
-        #             char = self.character_names[i].split('_m')[0]
-        #             type_skel = 'homeo'
-        #         else:
-        #             char = self.character_names[i]
-        #             type_skel = 'iso'
-        #         std_bvh_data.append(BvhData(self.character_names[i], motion_file_name=char+'.bvh', FLAGS=FLAGS))
-        #         self.topologies.append(std_bvh_data[i].topology)
-        #         self.val_edges.append(std_bvh_data[i].edges)
-        #         self.ee_ids.append(std_bvh_data[i].get_ee_id())
-        #         self.names.append(std_bvh_data[i].names)
-        #         # the offset now in shape [simple_joint_num, 3]
-        #         offset = torch.from_numpy(std_bvh_data[i].offset).float()
-        #         self.offset = offset.cuda()
-        #         self.val_offsets.append(self.offset)
-        #         self.joint_nums.append(offset.shape[0])
-
-                
-        #         bvh_file_list = get_bvh_file_names(mode, character_name=self.character_names[i])
-
-                
-        #         for j in tqdm(range(len(bvh_file_list))):
-                    
-        #             bvh_name = bvh_file_list[j]+'.bvh'
-        #             bvh_data = BvhData(self.character_names[i], motion_file_name=bvh_name,FLAGS = self.FLAGS)
-        #             # [frame, simple_joint_num - 1, 4]
-        #             rotation = bvh_data.get_rotation()
-        #             # [frame, 1, 3]
-        #             root_position = bvh_data.get_root_position()
-        #             rotation, root_position = self._normalize(rotation, root_position)
-        #             concat_tensor = self._concat_together(rotation, root_position)
-        #             rotation_super = torch.zeros(size=(concat_tensor.shape[0],25,4))
-        #             if concat_tensor.shape[1] == 25:
-        #                 rotation_super = concat_tensor
-        #             else:
-        #                 rotation_super[:,self.mapping,:] = concat_tensor
-        #             final_output_rot = self._to_format_tensor(rotation_super)
-        #             final_output_rot = self._slice_to_equal_frame_len(final_output_rot)
-        #             self.character_data_rot_val.append(final_output_rot)
-                    
-        #             self.index =  [j] * final_output_rot.shape[0]
-        #             self.index_tot_val.append(self.index)
-                    
-        #     self.indexes_val = list(itertools.chain(*self.index_tot_val))
-
-        #     self.character_data_rot_val = torch.cat(self.character_data_rot_val)
-            
-        #     self.character_data_rot_val= rearrange(self.character_data_rot_val,'b q j w -> b w j q')
             
     def __len__(self):
         if self.mode == 'train':
