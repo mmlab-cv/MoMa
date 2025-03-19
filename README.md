@@ -15,7 +15,7 @@ pip install -r requirements.txt
 **Mesh Intersection**: Follow the instruction from the official repository https://github.com/vchoutas/torch-mesh-isect 
 
 # Datasets
-Download the [Mixamo](https://www.mixamo.com/) dataset and change the path in `data_flags.py`
+Download the [Mixamo](https://www.mixamo.com/).
 
 ## 🛠 Setup
 
