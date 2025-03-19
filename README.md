@@ -17,12 +17,39 @@ pip install -r requirements.txt
 # Datasets
 Download the [Mixamo](https://www.mixamo.com/) dataset and change the path in `data_flags.py`
 
-# Training
-Run
+## 🛠 Setup
+
+Before starting training, configure the dataset settings in [`data_flags.py`](data_flags.py).
+
+### 🔧 Dataset Configuration
+
+Modify the following variables:
+
+- **`dataset_path`**: Path to the dataset directory.
+  - **Mixamo Dataset**: The main folder should contain multiple character subfolders, each with `.bvh` animation files.
+  - **HumanDog Dataset**: The main folder should contain two subfolders:
+    - `Human/` → Contains `.bvh` animation files for human motions.
+    - `Dog/` → Contains `.bvh` animation files for dog motions.
+
+- **`dataset`**: Choose the dataset name:
+  - `"MIXAMO"` → for the Mixamo dataset.
+  - `"HumanDog"` → for the HumanDog dataset.
+
+- **`n_joints`**: Number of joints in the dataset’s superskeleton:
+  - `25` → for Mixamo.
+  - `26` → for HumanDog.
+
+- **`mode`**: Set the mode to:
+  - `"train"` → to enable training.
+
+## 🚀 Training
+
+Once the dataset configuration is set, start training by running:
+
 ```
 python main.py
 ```
-to train the skeleton-aware module. Once it is trained, the collision in the resulting animation can be solved by running:
+Once it is trained, the collision in the resulting animation can be solved by running:
 ```
 python shape_optimization.py
 ```
