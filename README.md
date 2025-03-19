@@ -107,7 +107,12 @@ python shape_optimization.py
 Remember to set the correct character name and bvh_path in the `shape_optimization.py` file
 
 ### Checkpoints
-The checkpoints can be downloaded [here](https://drive.google.com/drive/folders/1OE7-mgmSDZizNHU2-CjvWBlq7Hy3P866?usp=sharing)
+
+## 💾 Checkpoints  
+
+The checkpoints can be downloaded here:  
+
+🔗 [Download Checkpoints](https://drive.google.com/drive/folders/1OE7-mgmSDZizNHU2-CjvWBlq7Hy3P866?usp=sharing)
 
 ## 📜 Citing  
 
