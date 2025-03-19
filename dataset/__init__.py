@@ -12,11 +12,11 @@ def get_bvh_file_names(mode,character_name):
     if '_m' in character_name:
         character_name = character_name.split('_m')[0]
     if mode == 'train':
-        file = open(f'/home/giuliamartinelli/Code/moma/DATRetarget/dataset/filelist/train/train_{character_name.lower()}.txt', 'r')
+        file = open(f'./dataset/filelist/train/train_{character_name.lower()}.txt', 'r')
     elif mode == 'validation':
-        file = open(f'/home/giuliamartinelli/Code/moma/DATRetarget/dataset/filelist/test/test_{character_name.lower()}.txt', 'r')
+        file = open(f'./dataset/filelist/test/test_{character_name.lower()}.txt', 'r')
     else:
-        file = open(f'/home/giuliamartinelli/Code/moma/DATRetarget/dataset/filelist/test/test_{character_name.lower()}.txt', 'r')
+        file = open(f'./dataset/filelist/test/test_{character_name.lower()}.txt', 'r')
     files_list = file.readlines()
     files_list = [f[:-1] for f in files_list] #[:-4]
     return files_list
