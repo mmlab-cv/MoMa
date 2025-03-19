@@ -1,6 +1,5 @@
 import sys
 import os
-sys.path.append("/home/giulia.martinelli-2/Documents/Code/DATRetarget")
 import torch
 import numpy as np
 from utils.Quaternions import Quaternions
@@ -24,55 +23,68 @@ skeleton_mewtwo = ["Waist","Upperleg_L","Lowerleg_L","Foot_L","Upperleg_R","Lowe
 skeleton_cmu =['Hips','LeftUpLeg','LeftLeg','LeftFoot','LeftToeBase','RightUpLeg','RightLeg','RightFoot','RightToeBase','Spine','Spine1','Neck1',
 'Head','LeftArm','LeftForeArm','LeftHand','LeftHandIndex1','RightArm','RightForeArm','RightHand','RightHandIndex1',]
 
-skeleton_real = ['Hip', 'RightUpLeg','RightLeg','RightFoot','LeftUpLeg','LeftLeg','LeftFoot','Spine','Spine3','Neck','LeftArm','LeftForeArm','LeftHand','RightArm','RightForeArm','RightHand']
-skeleton_real = ['Hip','RightHip','RightKnee','RightAnkle','LeftHip','LeftKnee','LeftAnkle','Spine','Thorax','Neck','LeftShoulder','LeftElbow','LeftWrist','RightShoulder','RightElbow',
-'RightWrist']
+skeleton_human = ['Hips', 'LeftUpLeg', 'LeftLeg', 'LeftFoot', 'LeftToe', 'RightUpLeg', 'RightLeg', 'RightFoot', 'RightToe', 'Spine', 'Spine1', 'Spine2', 'Neck', 'Head', 'LeftShoulder', 'LeftArm', 
+ 'LeftForeArm', 'LeftHand', 'RightShoulder', 'RightArm', 'RightForeArm', 'RightHand']
 
-skeleton_smpl = ['Hips','LeftHip','LeftKnee','LeftFoot','RightHip','RightKnee','RightFoot','Waist','Spine','Chest','Neck','LeftInnerShoulder','LeftShoulder',
-'LeftElbow','RightInnerShoulder','RightShoulder','RightElbow']
-# skeleton_cmu =['Hips','LHipJoint','LeftUpLeg','LeftLeg','LeftFoot','LeftToeBase','RHipJoint','RightUpLeg','RightLeg','RightFoot','RightToeBase','LowerBack','Spine','Spine1','Neck',
-# 'Head','LeftShoulder','LeftArm','LeftForeArm','LeftHand','RightShoulder','RightArm','RightForeArm','RightHand']
+skeleton_dog = ['Hips', 'Spine', 'Spine1', 'Neck', 'Head', 'LeftShoulder', 'LeftArm', 'LeftForeArm', 'LeftHand', 'RightShoulder', 'RightArm', 'RightForeArm', 'RightHand', 
+                'LeftUpLeg', 'LeftLeg', 'LeftFoot', 'RightUpLeg', 'RightLeg', 'RightFoot', 'Tail', 'Tail1']
 
 ee_name_aj = ['LeftToeBase', 'RightToeBase', 'Head', 'LeftHand', 'RightHand']
 
-# ee_name_cmu = ['LeftToeBase', 'RightToeBase', 'Head', 'LeftHand', 'RightHand']
-
 ee_name_cmu = ['LeftToeBase','RightToeBase','Head','LeftHandIndex1','RightHandIndex1']
 
-ee_name_smpl= ['LeftFoot','RightFoot','Neck','LeftElbow','RightElbow']
+ee_name_human= ['LeftToe','RightToe','Head','LeftHand','RightHand']
+ee_name_dog = ['LeftFoot','RightFoot','Head','LeftHand','RightHand','Tail1']
 
 ee_name_real = ['LeftAnkle','RightAnkle','Neck','LeftWrist','RightWrist']
 
 ee_name_penguin = ["lToe","rToe","head","lHand","rHand"]
 ee_name_mewtwo = ["Foot_L","Foot_R","Head","Hand_L","Hand_R"]
 
-ee_names = [ee_name_aj,ee_name_penguin,ee_name_mewtwo,ee_name_smpl]
+ee_names = [ee_name_aj,ee_name_penguin,ee_name_mewtwo,ee_name_cmu,ee_name_human,ee_name_dog]
 
 
 class BvhData(object):
-    def __init__(self, character_name, motion_file_name, data_path = None, FLAGS=None):
-        if data_path == None:
+    def __init__(self, character_name, motion_file_name, mode = 'train', FLAGS=None):
+
+        if FLAGS.dataset == 'MIXAMO':
             data_path = FLAGS.dataset_path
+            self.skeleton_type = 0
+            self.simplified_name = skeleton
+        elif FLAGS.dataset == 'CMU':
+            if mode == 'train':
+                data_path = os.path.join(FLAGS.dataset_path,'Training')
+                self.skeleton_type = 3
+                self.simplified_name = skeleton_cmu
+            else:
+                data_path = os.path.join(FLAGS.dataset_path,'Validation')
+        elif FLAGS.dataset == 'HumanDog':
+            data_path = FLAGS.dataset_path
+            if character_name == 'Human':
+                self.simplified_name = skeleton_human
+                self.skeleton_type = 4
+            else:
+                self.simplified_name = skeleton_dog
+                self.skeleton_type = 5
+
+
+        if '_m' in character_name:
+            self.simplified_name = skeleton_m
         else:
-            data_path = "/home/giuliamartinelli/Dataset/MoMaAnimation"
-        # if FLAGS.retargeting == 'iso' or FLAGS.retargeting == 'homeo':
-        #     self.skeleton_type = 0
-        # else:
-        # if data_path == '/home/giuliamartinelli/Dataset/MoMaAnimation/MixamoBVH':
-        #     self.skeleton_type = 0
-        # else:
-        #     self.skeleton_type = 3
-        # if character_name == "Penguin":
-        #     self.skeleton_type = 1
-        # elif character_name == "Mewtwo":
-        #     self.skeleton_type = 2
-        # elif FLAGS.dataset == 'CMU':
-        #     self.skeleton_type == 3
-        # else:
-        #     self.skeleton_type = 0
+            if character_name == 'Penguin':
+                self.simplified_name = skeleton_penguin
+            elif character_name == 'Mewtwo':
+                self.simplified_name = skeleton_mewtwo
+                self._names = ['Root','Waist','Tummy','Chest','Neck','Head','Head_end','Neck_001','Neck_002','Neck_002_end',
+                               'Upperarm_L','Forearm_L','Hand_L','Bone','Bone','Bone','Bone','Bone','Bone','Bone','Bone','Bone',
+                               'Upperarm_R','Forearm_R','Hand_R','Bone','Bone','Bone','Bone','Bone','Bone','Bone','Bone','Bone',
+                               'Upperleg_L','Lowerleg_L','Foot_L','Foot','Foot','Foot','Foot','Upperleg_R','Lowerleg_R','Foot_R',
+                               'Foot','Foot','Foot','Foot',"Tail","Tail_001","Tail_002","Tail_003","Tail_004","Tail_005","Tail_006","Tail_007"]
+
         
         file_path = os.path.join(data_path, character_name, motion_file_name)
         self.anim, self._names, self.frame_time = read_bvh(file_path)
+        print(self._names)
         self.complete_joint_num = self.anim.shape[1]
         self.edges = []
         self.edge_mat = []  # neighboring matrix
@@ -80,54 +92,37 @@ class BvhData(object):
         self._topology = None
         self.ee_length = []
         # eliminate the ":" in the JOINT name
-        # for i, name in enumerate(self._names):
-        #     if ':' in name:
-        #         name = name[name.find(':') + 1:]
-        #         self._names[i] = name
-        #     elif 'm_avg_' in name:
-        #         name = name[name.find('m_avg_') + 6:]
-        #         self._names[i] = name
+        for i, name in enumerate(self._names):
+            if ':' in name:
+                name = name[name.find(':') + 1:]
+                self._names[i] = name
+            elif 'm_avg_' in name:
+                name = name[name.find('m_avg_') + 6:]
+                self._names[i] = name
 
         # # self.set_new_root(1)
 
-        # if '_m' in character_name:
-        #     self.simplified_name = skeleton_m
-        # else:
-        #     if character_name == 'Penguin':
-        #         self.simplified_name = skeleton_penguin
-        #     elif character_name == 'Mewtwo':
-        #         self.simplified_name = skeleton_mewtwo
-        #         self._names = ['Root','Waist','Tummy','Chest','Neck','Head','Head_end','Neck_001','Neck_002','Neck_002_end',
-        #                        'Upperarm_L','Forearm_L','Hand_L','Bone','Bone','Bone','Bone','Bone','Bone','Bone','Bone','Bone',
-        #                        'Upperarm_R','Forearm_R','Hand_R','Bone','Bone','Bone','Bone','Bone','Bone','Bone','Bone','Bone',
-        #                        'Upperleg_L','Lowerleg_L','Foot_L','Foot','Foot','Foot','Foot','Upperleg_R','Lowerleg_R','Foot_R',
-        #                        'Foot','Foot','Foot','Foot',"Tail","Tail_001","Tail_002","Tail_003","Tail_004","Tail_005","Tail_006","Tail_007"]
-        #     elif FLAGS.dataset == 'CMU':
-        #         self.simplified_name = skeleton_cmu
-        #     elif data_path != '/home/giuliamartinelli/Dataset/MoMaAnimation/MixamoBVH':
-        #         self.simplified_name = skeleton_smpl
-        #     else:
-        #         self.simplified_name = skeleton
+
         # # self.corps store the index in complete skeleton
-        # self.corps = []
-        # for name in self.simplified_name:
-        #     j = self._names.index(name)
-        #     self.corps.append(j)
-        # self.simplify_joint_num = len(self.corps)
+        self.corps = []
+        for name in self.simplified_name:
+            j = self._names.index(name)
+            self.corps.append(j)
+        self.simplify_joint_num = len(self.corps)
 
         # ee_id is the end_effector's index list in the simplified skeleton
-        # self.ee_id = []
-        # for ee_name in ee_names[self.skeleton_type]:
-        #     self.ee_id.append(self.simplified_name.index(ee_name))
+        self.ee_id = []
+        for ee_name in ee_names[self.skeleton_type]:
+            self.ee_id.append(self.simplified_name.index(ee_name))
 
         # 2 dicts map the index between simple & complete skeletons
-        # self.simplify_map = {}
-        # self.inverse_simplify_map = {}
-        # for simple_idx, complete_idx in enumerate(self.corps):
-        #     self.simplify_map[complete_idx] = simple_idx
-        #     self.inverse_simplify_map[simple_idx] = complete_idx
-        # # TODO why set -1 here ???
-        # self.inverse_simplify_map[0] = -1
+        self.simplify_map = {}
+        self.inverse_simplify_map = {}
+        for simple_idx, complete_idx in enumerate(self.corps):
+            self.simplify_map[complete_idx] = simple_idx
+            self.inverse_simplify_map[simple_idx] = complete_idx
+
+        self.inverse_simplify_map[0] = -1
         self.edges = build_bone_topology(self.topology)
         return
 
@@ -152,24 +147,19 @@ class BvhData(object):
             position[i] += position[i-1]
         self.anim.positions[:, 0, :] = position
 
-    # @property
-    # def topology(self):
-    #     if self._topology is None:
-    #         self._topology = self.anim.parents[self.corps].copy()
-    #         for i in range(self._topology.shape[0]):
-    #             if i >= 1:
-    #                 self._topology[i] = self.simplify_map[self._topology[i]]
-    #     # return a np.array
-    #     return self._topology
-    
     @property
     def topology(self):
         if self._topology is None:
-            self._topology = self.anim.parents.copy()
+            self._topology = self.anim.parents[self.corps].copy()
+            for i in range(self._topology.shape[0]):
+                if i >= 1:
+                    self._topology[i] = self.simplify_map[self._topology[i]]
+        # return a np.array
         return self._topology
+    
 
-    # def get_ee_id(self):
-    #     return self.ee_id
+    def get_ee_id(self):
+        return self.ee_id
 
     def to_reconstruction_tensor(self):
         rotations = self.get_rotation()
@@ -235,11 +225,11 @@ class BvhData(object):
     @property
     def offset(self) -> np.ndarray:
         # in shape[simple_joint_num, 3]
-        return self.anim.offsets#[self.corps]
+        return self.anim.offsets[self.corps]
 
-    # @property
-    # def names(self):
-    #     return self.simplified_name
+    @property
+    def names(self):
+        return self.simplified_name
 
     def get_height(self):
         offset = self.offset
