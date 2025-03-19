@@ -84,7 +84,6 @@ class BvhData(object):
         
         file_path = os.path.join(data_path, character_name, motion_file_name)
         self.anim, self._names, self.frame_time = read_bvh(file_path)
-        print(self._names)
         self.complete_joint_num = self.anim.shape[1]
         self.edges = []
         self.edge_mat = []  # neighboring matrix
