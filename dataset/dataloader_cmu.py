@@ -115,7 +115,7 @@ class CMUDataset(Dataset):
                 else:
                     char = self.character_names[i] + '_' + bvh_file_list[0].split('_')[-1]
 
-                std_bvh_data.append(BvhData(self.character_names[i], motion_file_name=char, data_path=train_data_path,FLAGS=FLAGS))
+                std_bvh_data.append(BvhData(self.character_names[i], motion_file_name=char,FLAGS=FLAGS))
                 self.topologies.append(std_bvh_data[i].topology)
                 self.edges.append(std_bvh_data[i].edges)
                 self.ee_ids.append(std_bvh_data[i].get_ee_id())
@@ -129,7 +129,7 @@ class CMUDataset(Dataset):
                 for j in tqdm(range(len(bvh_file_list))):
                     
                     bvh_name = bvh_file_list[j]
-                    bvh_data = BvhData(self.character_names[i], motion_file_name=bvh_name,data_path=train_data_path,FLAGS = self.FLAGS)
+                    bvh_data = BvhData(self.character_names[i], motion_file_name=bvh_name,FLAGS = self.FLAGS)
                     # [frame, simple_joint_num - 1, 4]
                     rotation = bvh_data.get_rotation()
                     # [frame, 1, 3]
@@ -189,7 +189,7 @@ class CMUDataset(Dataset):
                     char = self.character_names[i] + '_' + bvh_file_list[0].split('_')[-1]
 
 
-                std_bvh_data.append(BvhData(self.character_names[i], motion_file_name=char, data_path=val_data_path,FLAGS=FLAGS))
+                std_bvh_data.append(BvhData(self.character_names[i], motion_file_name=char,FLAGS=FLAGS))
                 self.topologies.append(std_bvh_data[i].topology)
                 self.val_edges.append(std_bvh_data[i].edges)
                 self.ee_ids.append(std_bvh_data[i].get_ee_id())
@@ -203,7 +203,7 @@ class CMUDataset(Dataset):
                 for j in tqdm(range(len(bvh_file_list))):
                     
                     bvh_name = bvh_file_list[j]
-                    bvh_data = BvhData(self.character_names[i], motion_file_name=bvh_name,data_path=val_data_path,FLAGS=FLAGS)
+                    bvh_data = BvhData(self.character_names[i], motion_file_name=bvh_name,FLAGS=FLAGS)
                     # [frame, simple_joint_num - 1, 4]
                     rotation = bvh_data.get_rotation()
                     # [frame, 1, 3]
