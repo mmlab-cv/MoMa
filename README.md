@@ -14,8 +14,43 @@ pip install -r requirements.txt
 **Blender** : https://docs.blender.org/api/current/info_quickstart.html \
 **Mesh Intersection**: Follow the instruction from the official repository https://github.com/vchoutas/torch-mesh-isect 
 
-# Datasets
-Download the [Mixamo](https://www.mixamo.com/).
+## 📂 Datasets  
+
+Download the following datasets and organize them in the specified folders:  
+
+### 🏃‍♂️ Mixamo  
+- Download animations from **[Mixamo](https://www.mixamo.com/)**.  
+- Organize them as:
+```plaintext
+MIXAMO/
+├── Character_1/
+│   ├── animation_1.bvh
+│   ├── animation_2.bvh
+│   └── ...
+├── Character_2/
+├── Character_3/
+└── ...
+```
+### 🐶 Dog Dataset  
+- Download the dog animations from **[AI4Animation](https://github.com/sebastianstarke/AI4Animation)**.  
+- Place all `.bvh` files inside:
+```plaintext
+HumanDog/
+├── Dog/
+│   ├── animation_1.bvh
+│   ├── animation_2.bvh
+│   └── ...
+```
+### 🧍‍♂️ Human Dataset  
+- Download human animations from **[Ubisoft LaForge Animation Dataset](https://github.com/ubisoft/ubisoft-laforge-animation-dataset)**.  
+- Place all `.bvh` files inside:
+```plaintext
+HumanDog/
+├── Human/
+│   ├── animation_1.bvh
+│   ├── animation_2.bvh
+│   └── ...
+```
 
 ## 🛠 Setup
 
